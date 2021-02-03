@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist",
+    "emitDeclarationOnly": false,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "target": "es2015",
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "files": ["src/index.ts"]
+}

@@ -1,6 +1,6 @@
 {
   "name": "fit-to-bounds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fit given child proportions inside parent proportions simular to css background-size",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",

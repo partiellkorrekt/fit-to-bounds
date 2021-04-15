@@ -15,7 +15,7 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "sourceMap": true,
-    "target": "es2015",
+    "target": "es5",
     "strictNullChecks": true,
     "esModuleInterop": true,
     "isolatedModules": true

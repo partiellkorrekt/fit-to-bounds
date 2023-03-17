@@ -63,8 +63,9 @@ export const fit = (
         width: roundSize ? Math.ceil(parentDimensions.height / childRatio) : parentDimensions.height / childRatio,
         height: parentDimensions.height
       }
-  const scale = size.width / childDimensions.width
+  let scale = size.width / childDimensions.width
   if (!allowUpscaling && scale > 1) {
+    scale = 1
     size = {
       width: childDimensions.width,
       height: childDimensions.height

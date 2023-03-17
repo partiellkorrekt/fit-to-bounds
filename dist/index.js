@@ -16,6 +16,7 @@ export var fit = function (mode, parentDimensions, childDimensions, options) {
         };
     var scale = size.width / childDimensions.width;
     if (!allowUpscaling && scale > 1) {
+        scale = 1;
         size = {
             width: childDimensions.width,
             height: childDimensions.height
